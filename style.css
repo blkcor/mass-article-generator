@@ -1,0 +1,81 @@
+header {
+    height: 120px;
+    border-bottom: solid 1px #777;
+}
+
+.options {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.options div {
+    width: 300px;
+}
+
+#title {
+    font-size: 1.5rem;
+}
+
+.title {
+    clear: both;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 12px;
+}
+
+.title input {
+    outline: none;
+    border: none;
+    border-bottom: solid 1px black;
+    text-align: center;
+    width: 45%;
+    max-width: 600px;
+}
+
+.options input {
+    margin-right: 10px;
+}
+
+.title button {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    border: none;
+    background: #444;
+    color: #eee;
+}
+
+main {
+    padding-bottom: 40px;
+}
+
+section {
+    text-indent: 3rem;
+    padding: 10px 0;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .title span {
+        display: none;
+    }
+
+    #title {
+        font-size: 1.2rem;
+    }
+
+    .title button {
+        font-size: 1.2rem;
+    }
+
+    section {
+        text-indent: 2.4rem;
+    }
+}
