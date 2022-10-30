@@ -79,3 +79,17 @@ footer {
         text-indent: 2.4rem;
     }
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(118, 114, 110);
+}
+
+.ref {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #777;
+}
