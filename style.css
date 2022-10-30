@@ -89,7 +89,9 @@ a:hover {
 }
 
 .ref {
-    text-align: center;
+    text-align: left;
+    position: relative;
+    left: 20px;
     font-size: 1.8rem;
     color: #777;
 }
